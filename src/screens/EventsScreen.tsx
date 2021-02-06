@@ -12,14 +12,14 @@ import {ScrollView} from 'react-native-gesture-handler';
 import {Constants as ExpoConstants} from 'react-native-unimodules';
 import * as Network from 'expo-network';
 
-import {useStores} from 'src/stores';
-import {useServices} from 'src/services';
-import Reanimated2 from 'src/components/Reanimated2';
-import {ButtonIcon, ButtonTitle} from 'src/components/Button';
-import useStyles from 'src/hooks/useStyles';
-import {screens} from 'src/services/navigation/screens';
-import Section from 'src/components/Section';
-import {Buttons} from 'src/services/navigation/buttons';
+import {useStores} from 'stores';
+import {useServices} from 'services';
+import Reanimated2 from 'components/Reanimated2';
+import {ButtonIcon, ButtonTitle} from 'components/Button';
+import useStyles from 'hooks/useStyles';
+import {screens} from 'services/navigation/screens';
+import Section from 'components/Section';
+import {Buttons} from 'services/navigation/buttons';
 
 type StarterScreenProps = {};
 

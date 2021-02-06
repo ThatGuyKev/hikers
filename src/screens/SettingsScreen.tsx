@@ -7,14 +7,14 @@ import {ScrollView} from 'react-native-gesture-handler';
 import * as StoreReview from 'expo-store-review';
 import * as MailComposer from 'expo-mail-composer';
 
-import {useStores} from 'src/stores';
-import {useServices} from 'src/services';
-import useStyles from 'src/hooks/useStyles';
-import {screens} from 'src/services/navigation/screens';
-import Section from 'src/components/Section';
-import SettingsAction from 'src/components/SettingsAction';
-import useContants from 'src/hooks/useConstants';
-import SettingsFooter from 'src/components/SettingsFooter';
+import {useStores} from 'stores';
+import {useServices} from 'services';
+import useStyles from 'hooks/useStyles';
+import {screens} from 'services/navigation/screens';
+import Section from 'components/Section';
+import SettingsAction from 'components/SettingsAction';
+import useContants from 'hooks/useConstants';
+import SettingsFooter from 'components/SettingsFooter';
 
 const SettingsScreen: NavigationFunctionComponent = observer(
   ({componentId}) => {

@@ -1,11 +1,11 @@
 import * as Updates from 'expo-updates';
-import { stores } from 'src/stores';
-import { services } from '.';
+import {stores} from 'stores';
+import {services} from '.';
 
 class AppUpdatesService implements IService {
   init = async () => {
     // this.checkForAppUpdate();
-  }
+  };
 
   checkForAppUpdate = async () => {
     if (__DEV__) return;
@@ -24,14 +24,13 @@ class AppUpdatesService implements IService {
 
       stores.ui.setIsCheckingForAppUpdates(false);
       services.nav.dismissAllOverlays();
-    }
-    catch (e) {
+    } catch (e) {
       // handle error
-      console.error(e)
+      console.error(e);
       stores.ui.setIsCheckingForAppUpdates(false);
       services.nav.dismissAllOverlays();
     }
-  }
+  };
 }
 
 export default new AppUpdatesService();

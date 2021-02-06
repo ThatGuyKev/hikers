@@ -1,23 +1,27 @@
 import React from 'react';
-import Animated, { withSpring, useAnimatedStyle, useSharedValue } from 'react-native-reanimated';
-import { StyleSheet, View, Text } from 'react-native';
-import useStyles from 'src/hooks/useStyles';
-import { ButtonTitle } from './Button';
+import Animated, {
+  withSpring,
+  useAnimatedStyle,
+  useSharedValue,
+} from 'react-native-reanimated';
+import {StyleSheet, View, Text} from 'react-native';
+import useStyles from 'hooks/useStyles';
+import {ButtonTitle} from './Button';
 import Bounceable from './Bounceable';
 
 const Reanimated2: React.FC = () => {
-  const { styles } = useStyles(_styles);
+  const {styles} = useStyles(_styles);
   const offset = useSharedValue(0);
 
   const animatedStyles = useAnimatedStyle(() => {
     return {
-      transform: [{ translateX: offset.value * 250 - 100 }]
-    }
+      transform: [{translateX: offset.value * 250 - 100}],
+    };
   });
 
   const _moveObject = () => {
     offset.value = withSpring(Math.random());
-  }
+  };
 
   return (
     <View style={styles.container}>
@@ -29,33 +33,30 @@ const Reanimated2: React.FC = () => {
         </Bounceable>
       </Animated.View>
 
-      <ButtonTitle
-        centered
-        title={'Move'}
-        onPress={_moveObject}
-      />
+      <ButtonTitle centered title={'Move'} onPress={_moveObject} />
     </View>
-  )
-}
+  );
+};
 
-const _styles = (theme: ThemeType) => StyleSheet.create({
-  container: {
-    padding: 8,
-    justifyContent: 'center',
-  },
-  box: {
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    color: 'white',
-  },
-  squareContainer: {
-    padding: 30,
-    borderRadius: 20,
-    margin: 8,
-    backgroundColor: theme.colors.main,
-  },
-})
+const _styles = (theme: ThemeType) =>
+  StyleSheet.create({
+    container: {
+      padding: 8,
+      justifyContent: 'center',
+    },
+    box: {
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    text: {
+      color: 'white',
+    },
+    squareContainer: {
+      padding: 30,
+      borderRadius: 20,
+      margin: 8,
+      backgroundColor: theme.colors.main,
+    },
+  });
 
 export default Reanimated2;

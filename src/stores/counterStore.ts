@@ -1,6 +1,6 @@
-import { observable, action, makeObservable } from 'mobx';
-import { persist } from 'mobx-persist';
-import { HydratedStore } from 'src/utils/classes';
+import {observable, action, makeObservable} from 'mobx';
+import {persist} from 'mobx-persist';
+import {HydratedStore} from 'utils/classes';
 
 class CounterStore extends HydratedStore {
   constructor() {
@@ -13,11 +13,11 @@ class CounterStore extends HydratedStore {
 
   @action increment = async () => {
     this.value += 1;
-  }
+  };
 
   @action decrement = async () => {
     this.value -= 1;
-  }
+  };
 }
 
 export default new CounterStore();

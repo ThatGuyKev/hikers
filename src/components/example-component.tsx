@@ -1,25 +1,22 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import {StyleSheet, View} from 'react-native';
 
-import useStyles from 'src/hooks/useStyles';
+import useStyles from 'hooks/useStyles';
 
-type ExampleComponentProps = {
-}
+type ExampleComponentProps = {};
 
-const ExampleComponent: React.FC<ExampleComponentProps> = ({
-}) => {
-  const { styles } = useStyles(_styles);
+const ExampleComponent: React.FC<ExampleComponentProps> = ({}) => {
+  const {styles} = useStyles(_styles);
 
-  return (
-    <View style={styles.container}></View>
-  )
-}
+  return <View style={styles.container}></View>;
+};
 
-const _styles = (theme: ThemeType) => StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: theme.colors.bg,
-  },
-})
+const _styles = (theme: ThemeType) =>
+  StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: theme.colors.bg,
+    },
+  });
 
 export default ExampleComponent;

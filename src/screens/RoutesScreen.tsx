@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, View, StyleSheet} from 'react-native';
+import {Text, View, StyleSheet, SafeAreaView} from 'react-native';
 import {observer} from 'mobx-react';
 import {NavigationFunctionComponent} from 'react-native-navigation';
 import {
@@ -12,15 +12,17 @@ import {ScrollView} from 'react-native-gesture-handler';
 import {Constants as ExpoConstants} from 'react-native-unimodules';
 import * as Network from 'expo-network';
 
-import {useStores} from 'src/stores';
-import {useServices} from 'src/services';
-import Reanimated2 from 'src/components/Reanimated2';
-import {ButtonIcon, ButtonTitle} from 'src/components/Button';
-import useStyles from 'src/hooks/useStyles';
-import {screens} from 'src/services/navigation/screens';
-import Section from 'src/components/Section';
-import {Buttons} from 'src/services/navigation/buttons';
+import {useStores} from 'stores';
+import {useServices} from 'services';
+import Reanimated2 from 'components/Reanimated2';
+import {ButtonIcon, ButtonTitle} from 'components/Button';
+import useStyles from 'hooks/useStyles';
+import {screens} from 'services/navigation/screens';
+import Section from 'components/Section';
+import {Buttons} from 'services/navigation/buttons';
 
+import RoutesContainer from 'components/RoutesContainer';
+import FloaterButton from 'components/FloaterButton';
 type RoutesScreenProps = {};
 
 const RoutesScreen: NavigationFunctionComponent<RoutesScreenProps> = observer(
@@ -44,9 +46,14 @@ const RoutesScreen: NavigationFunctionComponent<RoutesScreenProps> = observer(
     };
 
     return (
-      <ScrollView>
-        <Text>Hello World</Text>
-      </ScrollView>
+      <>
+        <ScrollView>
+          <RoutesContainer />
+        </ScrollView>
+        <FloaterButton onPress={() => console.log('Add Route')}>
+          <Text style={{color: 'white', fontSize: 40}}>+</Text>
+        </FloaterButton>
+      </>
     );
   },
 );

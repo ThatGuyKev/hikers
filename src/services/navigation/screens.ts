@@ -1,7 +1,7 @@
-import DashboardScreen from 'src/screens/DashboardScreen';
-import EventsScreen from 'src/screens/EventsScreen';
-import RoutesScreen from 'src/screens/RoutesScreen';
-import MenuScreen from 'src/screens/MenuScreen';
+import DashboardScreen from 'screens/DashboardScreen';
+import EventsScreen from 'screens/EventsScreen';
+import RoutesScreen from 'screens/RoutesScreen';
+import MenuScreen from 'screens/MenuScreen';
 
 import {Buttons} from './buttons';
 import {Options} from 'react-native-navigation';

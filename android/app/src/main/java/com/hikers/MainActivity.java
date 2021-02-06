@@ -1,4 +1,4 @@
-package com.rnn_starter;
+package com.hikers;
 
 import com.reactnativenavigation.NavigationActivity;
 

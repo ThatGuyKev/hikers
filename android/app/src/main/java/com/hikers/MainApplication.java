@@ -1,6 +1,6 @@
-package com.rnn_starter;
+package com.hikers;
 
-import com.rnn_starter.generated.BasePackageList;
+import com.hikers.generated.BasePackageList;
 
 import android.app.Application;
 import android.content.Context;
@@ -122,7 +122,7 @@ public class MainApplication extends NavigationApplication {
          We use reflection here to pick up the class that initializes Flipper,
         since Flipper library is not available in release mode
         */
-        Class<?> aClass = Class.forName("com.rnn_starter.ReactNativeFlipper");
+        Class<?> aClass = Class.forName("com.hikers.ReactNativeFlipper");
         aClass
             .getMethod("initializeFlipper", Context.class, ReactInstanceManager.class)
             .invoke(null, context, reactInstanceManager);

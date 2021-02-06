@@ -1,4 +1,4 @@
-package com.rnn_starter.generated;
+package com.hikers.generated;
 
 import java.util.Arrays;
 import java.util.List;

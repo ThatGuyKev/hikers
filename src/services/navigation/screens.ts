@@ -1,57 +1,61 @@
-import StarterScreen from 'src/screens/StarterScreen';
-import SettingsScreen from 'src/screens/SettingsScreen';
-import AppUpdateScreen from 'src/screens/AppUpdateScreen';
+import DashboardScreen from 'src/screens/DashboardScreen';
+import EventsScreen from 'src/screens/EventsScreen';
+import RoutesScreen from 'src/screens/RoutesScreen';
+import MenuScreen from 'src/screens/MenuScreen';
 
-import { Buttons } from './buttons';
-import { Options } from 'react-native-navigation';
+import {Buttons} from './buttons';
+import {Options} from 'react-native-navigation';
 
 // Here we define all information regarding screens
 
 type Screen = {
   id: string;
   options: () => Options;
-}
-type ScreenName =
-  'starter' |
-  'settings' |
-  'appUpdates';
+};
+type ScreenName = 'dashboard' | 'events' | 'routes' | 'menu';
 
 const withPrefix = (s: string) => `rnn_starter.${s}`;
 
 const screens: Record<ScreenName, Screen> = {
-  starter: {
-    id: withPrefix('StarterScreen'),
+  dashboard: {
+    id: withPrefix('DashboardScreen'),
     options: () => ({
       topBar: {
-        title: { text: 'Starter', },
-        rightButtons: [Buttons.Inc, Buttons.Dec],
+        title: {text: 'Dashboard'},
       },
-    })
+    }),
   },
-  settings: {
-    id: withPrefix('SettingsScreen'),
+  events: {
+    id: withPrefix('EventsScreen'),
     options: () => ({
       topBar: {
-        title: { text: 'Settings', }
-      }
-    })
+        title: {text: 'Events'},
+      },
+    }),
   },
-  appUpdates: {
-    id: withPrefix('AppUpdatesScreen'),
+  routes: {
+    id: withPrefix('RoutesScreen'),
     options: () => ({
-      overlay: { interceptTouchOutside: false },
-      topBar: { visible: false },
-      layout: { componentBackgroundColor: 'transparent' },
-    })
-  }
-}
+      topBar: {
+        title: {text: 'Routes'},
+      },
+    }),
+  },
+  menu: {
+    id: withPrefix('MenuScreen'),
+    options: () => ({
+      topBar: {
+        title: {text: 'Menu'},
+      },
+    }),
+  },
+};
 
 const Screens = new Map<string, React.FC<any>>();
-Screens.set(screens.starter.id, StarterScreen);
-Screens.set(screens.settings.id, SettingsScreen);
-Screens.set(screens.appUpdates.id, AppUpdateScreen);
+Screens.set(screens.dashboard.id, DashboardScreen);
+Screens.set(screens.events.id, EventsScreen);
+Screens.set(screens.routes.id, RoutesScreen);
+Screens.set(screens.menu.id, MenuScreen);
 
 export default Screens;
-export {
-  screens,
-};
+export {screens};

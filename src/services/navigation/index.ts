@@ -1,25 +1,25 @@
-import { Navigation } from 'react-native-navigation';
-import { Root, BottomTabs, StackWith, Component } from './layout';
-import { screens } from './screens';
+import {Navigation} from 'react-native-navigation';
+import {Root, BottomTabs, StackWith, Component} from './layout';
+import {screens} from './screens';
 import NavigationSystem from './system';
-import { getTabOptions } from './tabs';
+import {getTabOptions} from './tabs';
 
 class NavigationService extends NavigationSystem implements IService {
   init = async () => {
     await this.initSystem();
-  }
+  };
 
   pushSettings = async (cId: string) => {
-    this.push(cId, screens.settings.id);
-  }
+    this.push(cId, screens.events.id);
+  };
 
   showSettings = async () => {
-    this.show(screens.settings.id);
-  }
+    this.show(screens.events.id);
+  };
 
   showAppUpdate = async () => {
-    this.showOverlay(screens.appUpdates.id);
-  }
+    this.showOverlay(screens.routes.id);
+  };
 
   // APP
 
@@ -29,19 +29,15 @@ class NavigationService extends NavigationSystem implements IService {
     Navigation.setRoot(
       Root(
         BottomTabs([
-          StackWith(
-            Component(screens.starter.id),
-            { ...tabOptions[0] },
-          ),
+          StackWith(Component(screens.dashboard.id), {...tabOptions[0]}),
 
-          StackWith(
-            Component(screens.settings.id),
-            tabOptions[1],
-          ),
-        ])
-      )
+          StackWith(Component(screens.events.id), tabOptions[1]),
+          StackWith(Component(screens.routes.id), tabOptions[2]),
+          StackWith(Component(screens.menu.id), tabOptions[3]),
+        ]),
+      ),
     );
-  }
+  };
 }
 
 export default new NavigationService();

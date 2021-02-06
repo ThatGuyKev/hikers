@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* rnn_starterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnn_starterTests.m */; };
+		00E356F31AD99517003FC87E /* hikersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* hikersTests.m */; };
 		0CD3219B24E30A1B002DB652 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CD3219A24E30A1B002DB652 /* Expo.plist */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,12 +15,12 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* rnn_starterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnn_starterTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* hikersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* hikersTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		81B0602697A0E45B03066936 /* libPods-rnn_starter-rnn_starterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7460C544085A4CE512F5AC47 /* libPods-rnn_starter-rnn_starterTests.a */; };
-		95EEC2AA085DD7DA89C63A93 /* libPods-rnn_starter-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 177A55B7106B9277D563E34F /* libPods-rnn_starter-tvOS.a */; };
-		A65FEFDEF1A8CA7F88CFBEB5 /* libPods-rnn_starter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC3103801834B3C12D40CB2 /* libPods-rnn_starter.a */; };
-		ABA83033F6284A208B310135 /* libPods-rnn_starter-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 442CC2EB557B68EC28FAD71B /* libPods-rnn_starter-tvOSTests.a */; };
+		81B0602697A0E45B03066936 /* libPods-hikers-hikersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7460C544085A4CE512F5AC47 /* libPods-hikers-hikersTests.a */; };
+		95EEC2AA085DD7DA89C63A93 /* libPods-hikers-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 177A55B7106B9277D563E34F /* libPods-hikers-tvOS.a */; };
+		A65FEFDEF1A8CA7F88CFBEB5 /* libPods-hikers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC3103801834B3C12D40CB2 /* libPods-hikers.a */; };
+		ABA83033F6284A208B310135 /* libPods-hikers-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 442CC2EB557B68EC28FAD71B /* libPods-hikers-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,47 +29,47 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = rnn_starter;
+			remoteInfo = hikers;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "rnn_starter-tvOS";
+			remoteInfo = "hikers-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* rnn_starterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rnn_starterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* hikersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hikersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* rnn_starterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rnn_starterTests.m; sourceTree = "<group>"; };
-		02F0F13A962F5A79E009DED3 /* Pods-rnn_starter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnn_starter-tvOS.release.xcconfig"; path = "Target Support Files/Pods-rnn_starter-tvOS/Pods-rnn_starter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		06DA848656534EE04F4AF416 /* Pods-rnn_starter-rnn_starterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnn_starter-rnn_starterTests.debug.xcconfig"; path = "Target Support Files/Pods-rnn_starter-rnn_starterTests/Pods-rnn_starter-rnn_starterTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0C8D96A025645799004318F5 /* rnn_starter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = rnn_starter.entitlements; path = rnn_starter/rnn_starter.entitlements; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* hikersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hikersTests.m; sourceTree = "<group>"; };
+		02F0F13A962F5A79E009DED3 /* Pods-hikers-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hikers-tvOS.release.xcconfig"; path = "Target Support Files/Pods-hikers-tvOS/Pods-hikers-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		06DA848656534EE04F4AF416 /* Pods-hikers-hikersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hikers-hikersTests.debug.xcconfig"; path = "Target Support Files/Pods-hikers-hikersTests/Pods-hikers-hikersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C8D96A025645799004318F5 /* hikers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = hikers.entitlements; path = hikers/hikers.entitlements; sourceTree = "<group>"; };
 		0CD3219A24E30A1B002DB652 /* Expo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Expo.plist; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* rnn_starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rnn_starter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rnn_starter/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = rnn_starter/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rnn_starter/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rnn_starter/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rnn_starter/main.m; sourceTree = "<group>"; };
-		177A55B7106B9277D563E34F /* libPods-rnn_starter-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnn_starter-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* rnn_starter-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rnn_starter-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* rnn_starter-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rnn_starter-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B26FB7013D3FF741AEB7066 /* Pods-rnn_starter-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnn_starter-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-rnn_starter-tvOSTests/Pods-rnn_starter-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		442CC2EB557B68EC28FAD71B /* libPods-rnn_starter-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnn_starter-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AC3103801834B3C12D40CB2 /* libPods-rnn_starter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnn_starter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B452C939314C901B38A4B54 /* Pods-rnn_starter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnn_starter.debug.xcconfig"; path = "Target Support Files/Pods-rnn_starter/Pods-rnn_starter.debug.xcconfig"; sourceTree = "<group>"; };
-		7460C544085A4CE512F5AC47 /* libPods-rnn_starter-rnn_starterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnn_starter-rnn_starterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DD3B5AFF6BA62C61A69EF1B /* Pods-rnn_starter-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnn_starter-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-rnn_starter-tvOS/Pods-rnn_starter-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rnn_starter/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		862E6A2285C5AAED32DF68EE /* Pods-rnn_starter-rnn_starterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnn_starter-rnn_starterTests.release.xcconfig"; path = "Target Support Files/Pods-rnn_starter-rnn_starterTests/Pods-rnn_starter-rnn_starterTests.release.xcconfig"; sourceTree = "<group>"; };
-		B41A810D473B25C55933578E /* Pods-rnn_starter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnn_starter.release.xcconfig"; path = "Target Support Files/Pods-rnn_starter/Pods-rnn_starter.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* hikers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hikers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = hikers/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = hikers/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = hikers/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = hikers/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = hikers/main.m; sourceTree = "<group>"; };
+		177A55B7106B9277D563E34F /* libPods-hikers-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hikers-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* hikers-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hikers-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* hikers-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hikers-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B26FB7013D3FF741AEB7066 /* Pods-hikers-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hikers-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-hikers-tvOSTests/Pods-hikers-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		442CC2EB557B68EC28FAD71B /* libPods-hikers-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hikers-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC3103801834B3C12D40CB2 /* libPods-hikers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hikers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B452C939314C901B38A4B54 /* Pods-hikers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hikers.debug.xcconfig"; path = "Target Support Files/Pods-hikers/Pods-hikers.debug.xcconfig"; sourceTree = "<group>"; };
+		7460C544085A4CE512F5AC47 /* libPods-hikers-hikersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hikers-hikersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD3B5AFF6BA62C61A69EF1B /* Pods-hikers-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hikers-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-hikers-tvOS/Pods-hikers-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = hikers/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		862E6A2285C5AAED32DF68EE /* Pods-hikers-hikersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hikers-hikersTests.release.xcconfig"; path = "Target Support Files/Pods-hikers-hikersTests/Pods-hikers-hikersTests.release.xcconfig"; sourceTree = "<group>"; };
+		B41A810D473B25C55933578E /* Pods-hikers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hikers.release.xcconfig"; path = "Target Support Files/Pods-hikers/Pods-hikers.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F8DCC67985B6311FAF804C3C /* Pods-rnn_starter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnn_starter-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-rnn_starter-tvOSTests/Pods-rnn_starter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8DCC67985B6311FAF804C3C /* Pods-hikers-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hikers-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-hikers-tvOSTests/Pods-hikers-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B0602697A0E45B03066936 /* libPods-rnn_starter-rnn_starterTests.a in Frameworks */,
+				81B0602697A0E45B03066936 /* libPods-hikers-hikersTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A65FEFDEF1A8CA7F88CFBEB5 /* libPods-rnn_starter.a in Frameworks */,
+				A65FEFDEF1A8CA7F88CFBEB5 /* libPods-hikers.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95EEC2AA085DD7DA89C63A93 /* libPods-rnn_starter-tvOS.a in Frameworks */,
+				95EEC2AA085DD7DA89C63A93 /* libPods-hikers-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,20 +101,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABA83033F6284A208B310135 /* libPods-rnn_starter-tvOSTests.a in Frameworks */,
+				ABA83033F6284A208B310135 /* libPods-hikers-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* rnn_starterTests */ = {
+		00E356EF1AD99517003FC87E /* hikersTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* rnn_starterTests.m */,
+				00E356F21AD99517003FC87E /* hikersTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = rnn_starterTests;
+			path = hikersTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -133,10 +133,10 @@
 			path = Supporting;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* rnn_starter */ = {
+		13B07FAE1A68108700A75B9A /* hikers */ = {
 			isa = PBXGroup;
 			children = (
-				0C8D96A025645799004318F5 /* rnn_starter.entitlements */,
+				0C8D96A025645799004318F5 /* hikers.entitlements */,
 				0CD3219724E30999002DB652 /* Supporting */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -146,7 +146,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = rnn_starter;
+			name = hikers;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -154,10 +154,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				6AC3103801834B3C12D40CB2 /* libPods-rnn_starter.a */,
-				7460C544085A4CE512F5AC47 /* libPods-rnn_starter-rnn_starterTests.a */,
-				177A55B7106B9277D563E34F /* libPods-rnn_starter-tvOS.a */,
-				442CC2EB557B68EC28FAD71B /* libPods-rnn_starter-tvOSTests.a */,
+				6AC3103801834B3C12D40CB2 /* libPods-hikers.a */,
+				7460C544085A4CE512F5AC47 /* libPods-hikers-hikersTests.a */,
+				177A55B7106B9277D563E34F /* libPods-hikers-tvOS.a */,
+				442CC2EB557B68EC28FAD71B /* libPods-hikers-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,14 +165,14 @@
 		35B5D3F564B43E2BA42F7696 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6B452C939314C901B38A4B54 /* Pods-rnn_starter.debug.xcconfig */,
-				B41A810D473B25C55933578E /* Pods-rnn_starter.release.xcconfig */,
-				06DA848656534EE04F4AF416 /* Pods-rnn_starter-rnn_starterTests.debug.xcconfig */,
-				862E6A2285C5AAED32DF68EE /* Pods-rnn_starter-rnn_starterTests.release.xcconfig */,
-				7DD3B5AFF6BA62C61A69EF1B /* Pods-rnn_starter-tvOS.debug.xcconfig */,
-				02F0F13A962F5A79E009DED3 /* Pods-rnn_starter-tvOS.release.xcconfig */,
-				F8DCC67985B6311FAF804C3C /* Pods-rnn_starter-tvOSTests.debug.xcconfig */,
-				3B26FB7013D3FF741AEB7066 /* Pods-rnn_starter-tvOSTests.release.xcconfig */,
+				6B452C939314C901B38A4B54 /* Pods-hikers.debug.xcconfig */,
+				B41A810D473B25C55933578E /* Pods-hikers.release.xcconfig */,
+				06DA848656534EE04F4AF416 /* Pods-hikers-hikersTests.debug.xcconfig */,
+				862E6A2285C5AAED32DF68EE /* Pods-hikers-hikersTests.release.xcconfig */,
+				7DD3B5AFF6BA62C61A69EF1B /* Pods-hikers-tvOS.debug.xcconfig */,
+				02F0F13A962F5A79E009DED3 /* Pods-hikers-tvOS.release.xcconfig */,
+				F8DCC67985B6311FAF804C3C /* Pods-hikers-tvOSTests.debug.xcconfig */,
+				3B26FB7013D3FF741AEB7066 /* Pods-hikers-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -187,9 +187,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* rnn_starter */,
+				13B07FAE1A68108700A75B9A /* hikers */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* rnn_starterTests */,
+				00E356EF1AD99517003FC87E /* hikersTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				35B5D3F564B43E2BA42F7696 /* Pods */,
@@ -202,10 +202,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* rnn_starter.app */,
-				00E356EE1AD99517003FC87E /* rnn_starterTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* rnn_starter-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* rnn_starter-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* hikers.app */,
+				00E356EE1AD99517003FC87E /* hikersTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* hikers-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* hikers-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,9 +213,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* rnn_starterTests */ = {
+		00E356ED1AD99517003FC87E /* hikersTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rnn_starterTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "hikersTests" */;
 			buildPhases = (
 				36D6106204B718BD36A49F2D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -228,14 +228,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = rnn_starterTests;
-			productName = rnn_starterTests;
-			productReference = 00E356EE1AD99517003FC87E /* rnn_starterTests.xctest */;
+			name = hikersTests;
+			productName = hikersTests;
+			productReference = 00E356EE1AD99517003FC87E /* hikersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* rnn_starter */ = {
+		13B07F861A680F5B00A75B9A /* hikers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rnn_starter" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "hikers" */;
 			buildPhases = (
 				FFA12636E4C1393AAEDBC798 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -249,14 +249,14 @@
 			);
 			dependencies = (
 			);
-			name = rnn_starter;
-			productName = rnn_starter;
-			productReference = 13B07F961A680F5B00A75B9A /* rnn_starter.app */;
+			name = hikers;
+			productName = hikers;
+			productReference = 13B07F961A680F5B00A75B9A /* hikers.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* rnn_starter-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* hikers-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnn_starter-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "hikers-tvOS" */;
 			buildPhases = (
 				21B8A9578E7721722956120C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -269,14 +269,14 @@
 			);
 			dependencies = (
 			);
-			name = "rnn_starter-tvOS";
-			productName = "rnn_starter-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* rnn_starter-tvOS.app */;
+			name = "hikers-tvOS";
+			productName = "hikers-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* hikers-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* rnn_starter-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* hikers-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnn_starter-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "hikers-tvOSTests" */;
 			buildPhases = (
 				527A9481231D51DF5108F418 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -288,9 +288,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "rnn_starter-tvOSTests";
-			productName = "rnn_starter-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* rnn_starter-tvOSTests.xctest */;
+			name = "hikers-tvOSTests";
+			productName = "hikers-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* hikers-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -320,7 +320,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rnn_starter" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "hikers" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -333,10 +333,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* rnn_starter */,
-				00E356ED1AD99517003FC87E /* rnn_starterTests */,
-				2D02E47A1E0B4A5D006451C7 /* rnn_starter-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* rnn_starter-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* hikers */,
+				00E356ED1AD99517003FC87E /* hikersTests */,
+				2D02E47A1E0B4A5D006451C7 /* hikers-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* hikers-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -406,7 +406,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rnn_starter-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-hikers-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -442,7 +442,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rnn_starter-rnn_starterTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-hikers-hikersTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -464,7 +464,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rnn_starter-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-hikers-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -477,7 +477,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnn_starter-rnn_starterTests/Pods-rnn_starter-rnn_starterTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-hikers-hikersTests/Pods-hikers-hikersTests-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -518,7 +518,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnn_starter-rnn_starterTests/Pods-rnn_starter-rnn_starterTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hikers-hikersTests/Pods-hikers-hikersTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ED82FC3AE572ADD5FEF88FA1 /* [CP] Copy Pods Resources */ = {
@@ -527,7 +527,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnn_starter/Pods-rnn_starter-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-hikers/Pods-hikers-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -568,7 +568,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnn_starter/Pods-rnn_starter-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hikers/Pods-hikers-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -624,7 +624,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rnn_starter-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-hikers-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -638,7 +638,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* rnn_starterTests.m in Sources */,
+				00E356F31AD99517003FC87E /* hikersTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,7 +664,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* rnn_starterTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* hikersTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,12 +673,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* rnn_starter */;
+			target = 13B07F861A680F5B00A75B9A /* hikers */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* rnn_starter-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* hikers-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -686,14 +686,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06DA848656534EE04F4AF416 /* Pods-rnn_starter-rnn_starterTests.debug.xcconfig */;
+			baseConfigurationReference = 06DA848656534EE04F4AF416 /* Pods-hikers-hikersTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = rnn_starterTests/Info.plist;
+				INFOPLIST_FILE = hikersTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -703,17 +703,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnn_starter.app/rnn_starter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hikers.app/hikers";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 862E6A2285C5AAED32DF68EE /* Pods-rnn_starter-rnn_starterTests.release.xcconfig */;
+			baseConfigurationReference = 862E6A2285C5AAED32DF68EE /* Pods-hikers-hikersTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = rnn_starterTests/Info.plist;
+				INFOPLIST_FILE = hikersTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -723,21 +723,21 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnn_starter.app/rnn_starter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hikers.app/hikers";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B452C939314C901B38A4B54 /* Pods-rnn_starter.debug.xcconfig */;
+			baseConfigurationReference = 6B452C939314C901B38A4B54 /* Pods-hikers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = rnn_starter/rnn_starter.entitlements;
+				CODE_SIGN_ENTITLEMENTS = hikers/hikers.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3AH8NJ64XY;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = rnn_starter/Info.plist;
+				INFOPLIST_FILE = hikers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -746,7 +746,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.batyr.rnn-starter";
-				PRODUCT_NAME = rnn_starter;
+				PRODUCT_NAME = hikers;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -756,14 +756,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B41A810D473B25C55933578E /* Pods-rnn_starter.release.xcconfig */;
+			baseConfigurationReference = B41A810D473B25C55933578E /* Pods-hikers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = rnn_starter/rnn_starter.entitlements;
+				CODE_SIGN_ENTITLEMENTS = hikers/hikers.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3AH8NJ64XY;
-				INFOPLIST_FILE = rnn_starter/Info.plist;
+				INFOPLIST_FILE = hikers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -772,7 +772,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.batyr.rnn-starter";
-				PRODUCT_NAME = rnn_starter;
+				PRODUCT_NAME = hikers;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -781,7 +781,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DD3B5AFF6BA62C61A69EF1B /* Pods-rnn_starter-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 7DD3B5AFF6BA62C61A69EF1B /* Pods-hikers-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -792,14 +792,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "rnn_starter-tvOS/Info.plist";
+				INFOPLIST_FILE = "hikers-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rnn_starter-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.hikers-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -809,7 +809,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02F0F13A962F5A79E009DED3 /* Pods-rnn_starter-tvOS.release.xcconfig */;
+			baseConfigurationReference = 02F0F13A962F5A79E009DED3 /* Pods-hikers-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -820,14 +820,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "rnn_starter-tvOS/Info.plist";
+				INFOPLIST_FILE = "hikers-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rnn_starter-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.hikers-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -837,7 +837,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8DCC67985B6311FAF804C3C /* Pods-rnn_starter-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = F8DCC67985B6311FAF804C3C /* Pods-hikers-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -847,24 +847,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "rnn_starter-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "hikers-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rnn_starter-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.hikers-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnn_starter-tvOS.app/rnn_starter-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hikers-tvOS.app/hikers-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B26FB7013D3FF741AEB7066 /* Pods-rnn_starter-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 3B26FB7013D3FF741AEB7066 /* Pods-hikers-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -874,17 +874,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "rnn_starter-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "hikers-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rnn_starter-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.hikers-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnn_starter-tvOS.app/rnn_starter-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hikers-tvOS.app/hikers-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1005,7 +1005,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rnn_starterTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "hikersTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1014,7 +1014,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rnn_starter" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "hikers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1023,7 +1023,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnn_starter-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "hikers-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1032,7 +1032,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnn_starter-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "hikers-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1041,7 +1041,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rnn_starter" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "hikers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

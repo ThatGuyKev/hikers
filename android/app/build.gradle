@@ -133,7 +133,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.rnn_starter"
+        applicationId "com.hikers"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
